@@ -41,17 +41,17 @@ class FluidSlider @JvmOverloads constructor(
     }
 
     private companion object {
-        const val BAR_CORNER_RADIUS = 2
-        const val BAR_VERTICAL_OFFSET = 1.5f
+        const val BAR_CORNER_RADIUS = 20
+        const val BAR_VERTICAL_OFFSET = 2f
         const val BAR_INNER_HORIZONTAL_OFFSET = 0
 
         const val SLIDER_WIDTH = 4
         const val SLIDER_HEIGHT = 1 + BAR_VERTICAL_OFFSET
 
         const val TOP_CIRCLE_DIAMETER = 1
-        const val BOTTOM_CIRCLE_DIAMETER = 25.0f
+        const val BOTTOM_CIRCLE_DIAMETER = 24.0f
         const val TOUCH_CIRCLE_DIAMETER = 1
-        const val LABEL_CIRCLE_DIAMETER = 10
+        const val LABEL_CIRCLE_DIAMETER = 3
 
         const val ANIMATION_DURATION = 400
         const val TOP_SPREAD_FACTOR = 0.4f
@@ -59,7 +59,7 @@ class FluidSlider @JvmOverloads constructor(
         const val BOTTOM_END_SPREAD_FACTOR = 0.1f
         const val METABALL_HANDLER_FACTOR = 2.4f
         const val METABALL_MAX_DISTANCE = 15.0f
-        const val METABALL_RISE_DISTANCE = 1.1f
+        const val METABALL_RISE_DISTANCE = 1.7f
 
         const val TEXT_SIZE = 12
         const val TEXT_OFFSET = 8
